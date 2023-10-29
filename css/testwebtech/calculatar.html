@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>calulatar</title>
+<style type="text/css">
+.cal
+  {
+   width:400px;
+    margin:auto;
+	height:auto;
+	
+	}
+	#aa
+	{
+	  width:50px;
+	  height:40px;
+	  color:red;
+	  background:#33FFFF;
+	 
+	  }
+  #d
+  {
+     width:212px;
+
+	 height:40px;
+	 }
+	 #ab
+	 {
+	color:red;
+	background:#33FFFF; 
+	   width:212px;
+	   height:40px;
+	   }
+	   #aab
+	 {
+	 font-size:50px;
+	   }
+
+
+</style>
+</head>
+<body>
+
+<div class="cal">
+<action id="aab"> Calulatar</action>
+<form name="watch">
+
+<input type="text" id="d" name="display" /><br />
+<input type="button" id="aa" value="7" onclick="watch.display.value+='7'" />
+<input type="button"id="aa" value="8" onclick="watch.display.value+='8'" />
+<input type="button" id="aa" value="9" onclick="watch.display.value+='9'" />
+<input type="button"  id="aa" value="/" onclick="watch.display.value+='/'" />
+<br />
+<input type="button"id="aa" value="4" onclick="watch.display.value+='4'" />
+<input type="button"id="aa" value="5" onclick="watch.display.value+='5'" />
+<input type="button" id="aa"value="6" onclick="watch.display.value+='6'" />
+<input type="button" id="aa"value="*" onclick="watch.display.value+='*'" />
+<br />
+<input type="button" id="aa"value="1" onclick="watch.display.value+='1'" />
+<input type="button"id="aa" value="2" onclick="watch.display.value+='2'" />
+<input type="button" id="aa"value="3" onclick="watch.display.value+='3'" />
+<input type="button" id="aa"value="-" onclick="watch.display.value+='-'" />
+<br />
+<input type="button"id="aa" value="+" onclick="watch.display.value+='+'" />
+<input type="button"id="aa" value="." onclick="watch.display.value+='.'" />
+<input type="button"id="aa" value="%" onclick="watch.display.value+='%'" />
+<input type="button"id="aa" value="ac" onclick="watch.display.value+=''" /><br />
+
+<input type="button" id="ab"value="=" onclick="watch.display.value=eval(watch.display.value)" />
+
+</form>
+
+</div>
+</body>
+</html>
